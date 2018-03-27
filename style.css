@@ -4,7 +4,7 @@
 
 body {
 
-    margin: 0px;
+    margin: 0 auto;
     background-color: #151414;
 
 }
@@ -36,8 +36,8 @@ ul {
     padding: 20px;
     text-align: right;
     height: 7vh;
-    background-color: #000000;
-
+    background-color:#120011;
+   
 
 }
 
@@ -57,7 +57,7 @@ li {
     color: white;
 }
 
-a {
+.navbartext {
     text-decoration: none;
     color: #d4d4d4;
     font-size: 30px;
@@ -68,7 +68,7 @@ a {
     border-color: aliceblue;
 }
 
-a:hover {
+.navbartext:hover {
     text-shadow: 0 0 5px #fff,
     0 0 10px #ffffff,
     0 0 20px #ff3d5f,
@@ -104,6 +104,8 @@ p {
     background-color: #1c1c1c;
     height: 30vh;
     margin: 0 auto;
+    padding:40px;
+    
 
 }
 
@@ -140,31 +142,27 @@ p {
     font-size: 60px;
     font-family: 'Abel', sans-serif;
     color: #d6d6d6;
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right:20px;
     margin: 0 auto;
     text-align: center;
 }
 
 .flexcontainer {
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: row;
     width: 130%;
     justify-content: center;
     text-align: center;
-    align-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
+
+
 
 .children {
     margin: 0 auto;
-    left: 50%;
-    transform: translate(210%, 0);
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     width: 170px;
+    align-self: center;
 
 }
 
@@ -185,7 +183,7 @@ p {
 
 footer {
     background-color: #020202;
-    height: 20vh;
+    height: 40vh;
 
 }
 
@@ -223,6 +221,7 @@ footer {
     margin: 4px 2px;
     font-family: 'Abel', sans-serif;
     border-radius: 15px;
+     transition: .5s;
 
 }
 
